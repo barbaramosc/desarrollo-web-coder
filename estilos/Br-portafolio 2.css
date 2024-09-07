@@ -1,0 +1,484 @@
+
+
+/*Clases de fuentes*/
+.display-large {
+    font-family: "Montserrat Alternates";
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 112.281% */
+    letter-spacing: -0.25px;
+}
+
+.display-medium {
+    font-family: "Montserrat Alternates";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 115.556% */
+}
+
+.display-small {
+    font-family: "Montserrat Alternates";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 122.222% */
+
+}
+
+.headline-large {
+    font-family: "Montserrat Alternates";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */  
+}
+.Headline-medium {
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 128.571% */
+}
+.headline-small {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+.title-large {
+    font-family: "Montserrat Alternates";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 127.273% */
+}
+.title-medium {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.15px;
+}
+.title-small {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+.label-large {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+.label-medium {
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.5px;
+}
+.label-small {
+    font-family: Ubuntu;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.5px;
+}
+.body-large {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+}
+.body-medium{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+.body-small{
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+/* clases de colores*/
+
+.bg-acento {
+ background-color:#C04B80;   
+}
+.txt-acento {
+color: #C04B80;
+}
+.txt-tipografia {
+    color: #3F0A36;
+}
+.bg-violeta {
+    background-color: #B8BFD9;
+}
+.bg-gris-2 {
+    background-color: #F2F2F2;
+}
+.bg-gris-1 {
+    background-color: #81868c;
+}
+.txt-gris-1{
+    color: #81868c;
+}
+.txt-violeta-2{
+    color:#563A83;
+}
+.bg-violeta-2{
+    background-color:#563A83;
+}
+.bg-fondo {
+    background-color: #FCFCFC;
+}
+
+
+/*Navegacion*/
+.nav-item{
+    font-family:ubuntu;
+    font-weight: 700;
+    color: #563A83;
+}
+.nav-link{
+    color: #563A83;
+}
+.nav-link:selected{
+    color: #C04B80;
+}
+.nav-link:active{
+    color: #C04B80;
+}
+.nav-item:active{
+    font-family:ubuntu;
+    font-weight: 700;
+    color:#C04B80;
+    border-radius: 16px 4px;
+    border: 1px solid var(--Violeta, #B8BFD9);
+}
+/* clases de contendores*/
+.content {
+    display: flex;
+    padding: 40px 120px;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image:url(imagenes/title-bg.png);
+    background-position: relative; 
+    margin-bottom: 24px;
+}
+.title-font{
+    /* Display/Small */
+    font-family: "Montserrat Alternates";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 122.222% */
+}
+
+
+.project-card-large{
+    display: inline-flex;
+    border-radius: 16px;
+    background: url(imagenes/Proyecto.png) lightgray 50% / cover no-repeat;
+    /* DD light */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    min-width: 320px ;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 16px;
+}
+.project-card-large:hover{
+    display: inline-flex;
+    border-radius: 16px;
+    background:#B8BFD9 / cover no-repeat;
+    /* DD light */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    min-width: 320px ;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 16px;  
+}
+
+.project-card-small{
+    display: inline-flex;
+    border-radius: 16px;
+    background: url(imagenes/Proyecto.png) lightgray 50% / cover no-repeat;
+    /* DD light */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    min-width: 320px ;
+    max-width: 366px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 16px;
+}
+.project-card-small:hover{
+    display: inline-flex;
+    border-radius: 16px;
+    background:#B8BFD9 / cover no-repeat;
+    /* DD light */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    min-width: 320px ;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 16px;  
+}
+.project-card-details{
+    border-radius: 96px 2px 54px 1px;
+    opacity: 0.8;
+    background: var(--Violeta, #B8BFD9);
+    display: flex;
+    width: 215px;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+.project-card-description{
+    Display: flex;
+    padding: 8px 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #3F0A36;
+}
+.project-card-title{
+    color: var(--Tipogrtafia, #3F0A36);
+/* Title/Medium */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.15px;
+}
+.project-card-name{
+    color: var(--Acento, #C04B80);
+/* Label/Small */
+    font-family: Ubuntu;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.5px;
+}
+
+.hero{
+    border-radius: 8px 24px 1px 160px;
+    background: url(imagenes/HEro.png) lightgray 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.heading{
+    border-radius: 8px 24px 1px 160px;
+    background: url(imagenes/header.png) lightgray 50%;
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.footer {
+    display: flex;
+    padding: 16px 60px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 63px;
+    flex-wrap: wrap;
+    background: var(--Gris-2, #F2F2F2);
+}
+
+.nav-bar{
+    /* display: flex;
+    padding: 24px 120px 16px 120px;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #F2F2F2;
+}
+
+.nav-logo{
+    color: #3F0A36;
+    display: flex;
+    width: 261.675px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+/*buttons*/
+
+.primary-button{
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+    border-radius: 8px 1px 8px 8px;
+    background: var(--Acento, #C04B80); 
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12) 10%;
+    border-style: none;
+}
+.primary-button-font{
+    color: var(--Gris-2, #F2F2F2);
+/* Label/Large */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+.secondary-button{
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+    border-radius: 16px 4px;
+    border: 1px solid var(--Violeta, #B8BFD9);
+}
+.typo-button{
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+    border-style: none;
+    background-color: #FCFCFC;}
+
+.typo-button-font{
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.1px;
+color: #563A83;
+border-style: none;
+}
+.nav-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+    /*input*/
+.input-box{
+    border-radius: 4px;
+    border: 1px solid var(--Violeta, #B8BFD9);
+    background: var(--Fondo, #FCFCFC);
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+    height: 32px;
+}
+.input-label{
+    display: flex;
+    padding: 2px 4px;
+    justify-content:baseline;
+    align-items: baseline;
+    gap: 10px;
+    color: var(--Violeta-2, #563A83);
+/* Title/Small */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+.input-description{
+    display: flex;
+padding: 2px 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.all-bg{
+    background-color:#FCFCFC ;
+}
+.description-block{
+    background-image: url(imagenes/Rectangle\ 31.png);
+    color: var(--Tipogrtafia, #3F0A36);
+    /* Body/Large */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 24px;
+}
+.jobs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.contact-form{
+    display: flex;
+    padding: 16px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.contact-group{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
