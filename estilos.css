@@ -1,4 +1,28 @@
-/*Tipografia*/
+/*Tipografia */
+.texto-acento{
+    color:#c04b80;
+}
+.texto-tipografia{
+    color:#3F0A36;
+}
+.texto-violeta{
+    color:#b8bfd9;
+}
+.texto-gris-1{
+    color:#81868c
+}
+.texto-violeta-2{
+    color: #563a83;
+}
+.fondo-primario {
+    background-color: #fcfcfc;
+}
+.montserrat{
+    font-family: montserrat alternates;
+}
+.ubuntu{
+    font-family: ubuntu;
+}
 
 
 
