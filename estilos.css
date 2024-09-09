@@ -75,7 +75,17 @@ align-items: flex-start;
 border-radius: 16px;
 box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12)
 }
-
+.cards-proyectos-pfj{
+    background-image: url(/imagenes/pfj/Desktop\ 1\ -\ Register\ 26.png);
+    background-position: left;
+    display: flex;
+    padding: 16px;
+    min-height: 240px;
+flex-direction: column;
+align-items: flex-start;
+border-radius: 16px;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12)
+}
 .detalles-proyectos{
 background-color: #b8bfd995;
 border-radius: 96px 2px 54px 1px;
