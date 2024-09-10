@@ -145,6 +145,7 @@ width: 215px;
 .detalles-proyectos:hover{
     background-color: #b8bfd9;
     width: 100%;
+    height: 100%;
 }
 .experiencia{
     width: 280px;
