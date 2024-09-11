@@ -1,0 +1,15 @@
+.project-images--right{
+    border-radius: 60px 24px 120px 0px;
+    background-position: center;
+    min-height:240px;
+    max-height: 280px;
+    max-width: 60%;
+    background-color: rgb(239, 237, 236);
+    overflow: hidden;
+}
+.project-images--left{
+    border-radius: 0px 200px 0px 80px;
+    align-self: stretch;
+    background-position: center;
+    min-height:240px;
+}

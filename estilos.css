@@ -318,3 +318,23 @@ border: none;
     padding: 16px 24px;
 
 }
+
+.boton-secundario{
+    display: flex;
+height: 40px;
+padding: 8px 16px;
+align-items: center;
+gap: 11px;
+border-radius: 16px 4px;
+border: 1px solid var(--Violeta, #B8BFD9);
+}
+
+.boton-secundario:hover{
+    display: flex;
+height: 48px;
+padding: 8px 16px;
+align-items: center;
+gap: 11px;
+border-radius: 16px 4px;
+background-color: #b8bfd9;
+}
