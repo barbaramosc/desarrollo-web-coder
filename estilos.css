@@ -36,11 +36,10 @@
 }
 .bg-descriptions{
     background-position:left;
-    background-image: url(imagenes/Rectangle.png);
     background-repeat: no-repeat;
     margin-left: 10%;
     margin-right:10%;
-    overflow: visible;
+
 }
 .bg-descriptions:hover{
     border-radius: 16px;

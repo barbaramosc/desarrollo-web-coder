@@ -13,3 +13,20 @@
     background-position: center;
     min-height:240px;
 }
+.figura-left{
+    width: 40%;
+    height: 140px;
+    min-width: 80px;
+    transform: rotate(-179.714deg);
+    position: absolute;
+    left: -360px;
+}
+.figura-right{
+    width: 159.735px;
+    height: 300.487px;
+    transform: rotate(-0.061deg);
+    position: absolute;
+    right: 0px;
+    bottom: -187.656px;
+
+}
