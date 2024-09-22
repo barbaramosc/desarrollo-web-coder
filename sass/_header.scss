@@ -1,0 +1,16 @@
+header{
+    background-color:$color-fondo ;
+    img{
+        height: 26px;
+        width: 26px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        font: $label-large;
+        color: $color-violeta-2;
+        padding: 16px;
+    }
+}
